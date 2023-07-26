@@ -94,6 +94,19 @@ The tests will execute, and the results will be displayed on the terminal.
 
 To run the Weather API tests using Jenkins, follow these steps:
 
+### Start Jenkins
+
+- You can start the Jenkins service with the command:
+
+```
+sudo systemctl start jenkins
+```
+- You can check the status of the Jenkins service using the command:
+
+```
+sudo systemctl status jenkins
+```
+
 1. Open Jenkins and create a new Freestyle project.
 
 2. In the project configuration, set up the following:
